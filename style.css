@@ -2,6 +2,49 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
+@media (max-width: 991px) {
+  div .nav {
+    text-align: center;
+  }
+}
+
+@media (max-width: 985px) {
+  .posts {  
+    padding-left: 100px;
+  }
+}
+@media (max-width: 900px) {
+  .posts {
+    align-items: center; 
+    padding-left: 75px;
+  }
+}
+@media (max-width: 800px) {
+  .posts {  
+    padding-left: 90px;
+  }
+}
+@media (max-width: 660px) {
+  .posts {  
+    padding-left: 85px;
+  }
+}
+@media (max-width: 600px) {
+  .posts {  
+    padding-left: 65px;
+  }
+}
+@media (max-width: 570px) {
+  .posts {  
+    padding-left: 50px;
+  }
+}
+@media (max-width: 540px) {
+  .posts {  
+    padding-left: 1px;
+  }
+}
+
 .container {
    max-width: 1024px;
   
