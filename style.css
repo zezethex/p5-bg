@@ -7,39 +7,103 @@ body {
     text-align: center;
   }
 }
-
-@media (max-width: 985px) {
+/*you better use this! I wasted so much of my life on media queries!*/
+@media (max-width: 992px) {
   .posts {  
-    padding-left: 100px;
+    padding-left: 165px;
   }
 }
-@media (max-width: 900px) {
-  .posts {
-    align-items: center; 
-    padding-left: 75px;
+@media (max-width: 950px) {
+  .posts {  
+    padding-left: 160px;
+  }
+}
+@media (max-width: 840px) {
+  .posts {  
+    padding-left: 140px;
   }
 }
 @media (max-width: 800px) {
   .posts {  
-    padding-left: 90px;
+    padding-left: 150px;
   }
 }
-@media (max-width: 660px) {
+@media (max-width: 780px) {
   .posts {  
-    padding-left: 85px;
+    padding-left: 140px;
+  }
+}
+@media (max-width: 760px) {
+  .posts {  
+    padding-left: 130px;
+  }
+}
+@media (max-width: 740px) {
+  .posts {  
+    padding-left: 130px;
+  }
+}
+@media (max-width: 720px) {
+  .posts {  
+    padding-left: 130px;
+  }
+}
+@media (max-width: 700px) {
+  .posts {  
+    padding-left: 120px;
+  }
+}
+@media (max-width: 680px) {
+  .posts {  
+    padding-left: 110px;
+  }
+}
+@media (max-width: 650px) {
+  .posts {  
+    padding-left: 100px;
+  }
+}
+@media (max-width: 630px) {
+  .posts {  
+    padding-left: 90px;
   }
 }
 @media (max-width: 600px) {
   .posts {  
-    padding-left: 65px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 580px) {
+  .posts {  
+    padding-left: 70px;
   }
 }
 @media (max-width: 570px) {
   .posts {  
+    padding-left: 60px;
+  }
+}
+@media (max-width: 560px) {
+  .posts {  
     padding-left: 50px;
   }
 }
+@media (max-width: 550px) {
+  .posts {  
+    padding-left: 40px;
+  }
+}
 @media (max-width: 540px) {
+  .posts {  
+    padding-left: 30px;
+  }
+}
+@media (max-width: 530px) {
+  .posts {  
+    padding-left: 20px;
+  }
+}
+@media (max-width: 512px) {
   .posts {  
     padding-left: 1px;
   }
